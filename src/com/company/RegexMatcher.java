@@ -41,6 +41,8 @@ public class RegexMatcher {
     }
 
     public static void main(String[] args) {
+        String s = "\"Don't forget to bring your towel\"";
+        String t = "\\";
 
         // You can do an individual match in one easy line:
         System.out.println(Pattern.matches("a*b", "aaaaab"));
